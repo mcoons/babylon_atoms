@@ -1,0 +1,27 @@
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  background-color: black;
+  overflow: hidden;
+}
+
+#renderCanvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+
+  width: 90%;
+  height: 90%;
+  z-index: 10;
+  background: transparent;
+  border: 5px solid green;
+}
+
